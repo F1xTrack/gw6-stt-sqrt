@@ -1,0 +1,41 @@
+# Gradle and Kotlin build state
+.gradle/
+.kotlin/
+**/build/
+build/
+
+# Local Android SDK and signing material
+local.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+key.properties
+secrets.properties
+
+# IDE state
+.idea/
+*.iml
+.vscode/
+
+# Local emulator, generated packages, and validation output
+.emulator/
+/artifacts/
+captures/
+*.apk
+*.aab
+*.ap_
+*.hprof
+*.jfr
+
+# OS and crash-report files
+.DS_Store
+Thumbs.db
+desktop.ini
+hs_err_pid*
+replay_pid*
+
+# Local environment files
+.env
+.env.*
+!.env.example
